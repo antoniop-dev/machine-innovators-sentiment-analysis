@@ -3,11 +3,11 @@ name: (MachineInnovatorsInc_Solution) Test Suite
 on:
   push:
     paths:
-      - "Projects/MachineInnovatorsInc_Solution/**"
+      - "**"
       - ".github/workflows/test_machineinnovatorsinc_solution.yml"
   pull_request:
     paths:
-      - "Projects/MachineInnovatorsInc_Solution/**"
+      - "**"
       - ".github/workflows/test_machineinnovatorsinc_solution.yml"
   workflow_dispatch:
 
@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  PROJECT_DIR: Projects/MachineInnovatorsInc_Solution
+  PROJECT_DIR: .
   PYTHON_VERSION: "3.11"
   HF_HUB_DISABLE_TELEMETRY: "1"
 

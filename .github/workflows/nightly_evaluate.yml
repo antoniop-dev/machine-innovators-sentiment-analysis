@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 env:
-  PROJECT_DIR: Projects/MachineInnovatorsInc_Solution
+  PROJECT_DIR: .
   PYTHON_VERSION: "3.11"
   # Repository variables allow threshold/model tuning without editing this file.
   MODEL_ID_OR_PATH: ${{ vars.NIGHTLY_MODEL_ID_OR_PATH || 'antoniop-dev/sentiment-model-finetuned' }}

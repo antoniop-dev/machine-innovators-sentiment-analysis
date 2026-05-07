@@ -103,7 +103,7 @@ permissions:
   contents: read
 
 env:
-  PROJECT_DIR: Projects/MachineInnovatorsInc_Solution
+  PROJECT_DIR: .
   PYTHON_VERSION: "3.11"
   TRIGGER_REASON: ${{ inputs.trigger_reason || 'Triggered by workflow.' }}
   SOURCE_EVALUATION_RUN_ID: ${{ inputs.source_evaluation_run_id || '' }}
